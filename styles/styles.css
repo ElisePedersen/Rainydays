@@ -1,0 +1,148 @@
+@font-face {
+    font-family: 'Trebuchet MS';
+    src: url("../fonts/TrebuchetMS.ttf") format("truetype");
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    min-height: 100vh;
+    margin: 0%;
+}
+
+h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #00778F;
+}
+
+.top-border,
+footer {
+    background-color: #156a8246;
+    color: #003742;
+}
+
+footer {
+    padding: 15px;
+    text-align: center;
+}
+
+.top-border {
+    display: flex;  
+}
+
+.top-border nav {
+    margin-left: 40px;
+}
+
+.top-border a {
+    color: #003742; 
+}
+
+header p {
+    margin-left: 40px;
+}
+
+/*Home Page*/
+
+nav li {
+    display: inline-block;
+    margin: auto 10px;
+}
+
+nav ul {
+    padding: 0px;
+}
+
+ nav a {
+    text-decoration: none;
+}
+ .navigation a {
+    color: #00778F;  
+    padding: 10px 20px;
+}
+
+ .form-wrapper {
+     margin: auto 0px;
+     display: inline-flex;
+}
+
+ .form-wrapper > * {
+    margin: 5px;
+}
+
+.logo {
+    width: 15%;
+    margin: 15px 0px 15px 40px;
+}
+
+.navigation {
+    display: flex;
+}
+
+.navigation nav {
+    margin: auto;
+    font-size: 2em;
+}
+
+.search {
+    border: none;
+    background-color: #156a8246;
+    border-radius: 10px;
+    font-size: 1em;
+    width: 200px;
+} 
+
+.search-icon {
+    width: 130%;
+}
+
+.header-image {
+    max-width: 100%;
+}
+
+.scrollbar a {
+    color: #00778F;
+    grid-column: -1/1;
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.scrollbar {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin: auto 40px;
+    gap: 10px;
+    padding: 20px;
+}
+
+.scrollbar-product {
+    width: 100%;
+}
+
+.newsletter {
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 60px;
+}
+
+.subscribe {
+    font-size: 2em;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;   
+}
+
+.subscribe-label {
+    background-color: #003742;
+    border-radius: 20px 0px 0px 20px;
+    padding: 5px;
+}
+
+.subscribe-input {
+    border-radius: 0px 20px 20px 0px;
+    margin-right: 30px; 
+    width: 400px;
+    border-color: #003742;
+    font-size: 0.7em;
+}
