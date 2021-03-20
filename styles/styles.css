@@ -22,7 +22,11 @@ footer {
 
 footer {
     padding: 15px;
-    text-align: center;
+    text-align: center;   
+}
+
+footer nav {
+    display: none;
 }
 
 .top-border {
@@ -31,9 +35,11 @@ footer {
 
 .top-navigation {
     margin-left: auto;
+    margin-right: 40px;
 }
 
-.top-border a {
+.top-border a,
+footer a {
     color: #003742; 
 }
 
@@ -66,6 +72,7 @@ nav ul {
      grid-row: 1;
      grid-column: 3;
      margin-left: auto;
+     margin-right: 40px;
 }
 
  .form-wrapper > * {
@@ -159,10 +166,49 @@ nav ul {
 
 @media (max-width: 1050px) {
     .navigation {
+        display: grid;
+        justify-items: center;
+        grid-template-columns: 1fr auto;
+        margin-bottom: 10px;
+    }
+
+    .logo {
+        grid-column: 4/1;
+        grid-row: 1;
+        margin-bottom: 20px;
+        width: 20%;
+        margin: 20px 0px 0px 0px;
+    }
+
+    .navigation nav {
+        grid-column: 1;
+        grid-row: 2;
+        font-size: 1.5em;
+
+    }
+
+    .form-wrapper {
+        grid-column: 3;
+        grid-row: 2;
+        height: 40px;
+        align-self:center;
+    }
+}
+
+@media (max-width: 750px) {
+    .top-navigation {
+        display: none;
+    }
+
+    header p {
+        display: none;
+    }
+    
+    .navigation {
        display: grid;
        grid-column: 3;
        justify-items: center;
-       margin-bottom: 40px;
+       margin-bottom: 20px;
     }
     .logo {
         grid-row: 1;
@@ -172,6 +218,7 @@ nav ul {
     }
 
     .navigation nav {
+        grid-column: 2;
         grid-row: 2;
         font-size: 1.5em;
     }
@@ -180,6 +227,7 @@ nav ul {
         grid-row: 3;
         grid-column: 2;
         margin: unset;
+        height: 40px;
     }
 
     .search {
@@ -189,5 +237,9 @@ nav ul {
     .scrollbar a,
     .newsletter {
         font-size: 1.5em;
+    }
+
+    footer nav {
+        display: grid;
     }
 }
