@@ -29,6 +29,10 @@ footer nav {
     display: none;
 }
 
+footer p {
+    margin: 0px;
+}
+
 .top-border {
     display: flex;  
 }
@@ -82,7 +86,6 @@ nav ul {
 .logo {
     max-width: 50%;
     margin: 15px 0px 15px 40px;
-
 }
 
 .navigation {
@@ -156,7 +159,6 @@ nav ul {
 
 .subscribe-input {
     border-radius: 0px 20px 20px 0px;
-    margin-right: 30px; 
     width: 400px;
     border-color: #003742;
     font-size: 0.7em;
@@ -169,7 +171,7 @@ nav ul {
         display: grid;
         justify-items: center;
         grid-template-columns: 1fr auto;
-        margin-bottom: 10px;
+        margin-bottom: 5px;
     }
 
     .logo {
@@ -183,8 +185,8 @@ nav ul {
     .navigation nav {
         grid-column: 1;
         grid-row: 2;
-        font-size: 1.5em;
-
+        margin: unset;
+        margin-right: auto;
     }
 
     .form-wrapper {
@@ -195,7 +197,7 @@ nav ul {
     }
 }
 
-@media (max-width: 750px) {
+@media (max-width: 850px) {
     .top-navigation {
         display: none;
     }
@@ -221,6 +223,7 @@ nav ul {
         grid-column: 2;
         grid-row: 2;
         font-size: 1.5em;
+        margin: auto;
     }
 
     .form-wrapper {
@@ -239,7 +242,84 @@ nav ul {
         font-size: 1.5em;
     }
 
+    .subscribe {
+        font-size: 1em;
+        margin: auto 30px 50px 30px;
+    }
+
     footer nav {
         display: grid;
+    }
+
+    footer p {
+        font-size: 0.5em;
+    }
+}
+
+@media (max-width: 460px) {
+    .navigation {
+        margin-bottom: unset;
+    }
+
+    .logo {
+        grid-row: 1;
+        grid-column: 1;
+        width: 40%;
+    }
+
+    .navigation nav {
+        grid-row: 2;
+        grid-column: 1;
+        font-size: 1em;
+        margin: auto;
+    }
+
+    .navigation a {
+        padding: unset;
+    }
+
+    .form-wrapper {
+        grid-row: 1;
+        grid-column: 1;
+        width: 20px;
+        justify-self: end;
+        align-self: unset;
+    }
+
+    .search {
+        display: none;
+    }
+
+    main {
+        font-size: 0.7em;
+    }
+
+    .scrollbar {
+        margin: unset;
+    }
+
+    .newsletter {
+        margin-top: 30px;
+    }
+
+    .subscribe {
+        margin: 0px 30px 20px 30px;
+    }
+
+    footer a {
+        font-size: 0.7em;
+        padding: 10px 5px;
+    }
+
+    footer p {
+        font-size: 0.5em;
+    }
+
+    footer nav li {
+        margin-left: 0px;
+    }
+
+    footer nav ul {
+        margin: 0px auto 5px auto;
     }
 }
