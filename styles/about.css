@@ -1,0 +1,36 @@
+.logo {
+    margin-left: 25px;
+}
+
+h1 {
+    text-align: center;
+    text-transform: capitalize;
+}
+
+h2{
+    font-size: 1em;
+    text-align: center;
+    text-transform: uppercase;
+    color: #003742;
+}
+
+.text {
+    display: grid;
+    margin: 20px 40px;
+    gap: 100px;
+    font-size: 0.8em;
+}
+
+.first {
+    grid-row: 1;
+    grid-column: 1;
+}
+
+.second {
+    grid-row: 1;
+    grid-column: 2;
+}
+
+main img {
+    width: 100%;
+}

@@ -23,10 +23,6 @@
     margin: 0px;
 }
 
-.active {
-    text-decoration: underline;
-}
-
 .filter,
 .sort {
     display: inline-block; 
@@ -82,6 +78,7 @@ select {
     border-radius: 10px;
     grid-row: 3;
     align-self: center;
+    text-align: center;
     margin-right: 15px;
     font-size: 1.5em;
 }
