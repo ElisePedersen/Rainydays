@@ -41,7 +41,7 @@
 @media (max-width: 900px) {
     .top-navigation,
     header p,
-    .shipping {
+    .free-shipping {
         display: none;
     }
     

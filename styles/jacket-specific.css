@@ -90,7 +90,7 @@ h1 {
     color: #fff;
     background-color: #003742;
     padding: 3px 10px;
-    border-radius: 10px;
+    border-radius: 50px;
     align-self: center;
     text-align: center;
     margin-right: 40px;
@@ -103,7 +103,7 @@ h1 {
     color: #003742;
     border: solid;
     padding: 3px 10px;
-    border-radius: 10px;
+    border-radius: 50px;
     align-self: center;
     text-align: center;
     font-size: 1em;

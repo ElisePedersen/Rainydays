@@ -30,7 +30,7 @@
 }
 
 select {
-    border-radius: 10px;
+    border-radius: 50px;
     padding: 5px;
     background-color: #003742;
     color: #fff; 
@@ -75,7 +75,7 @@ select {
     color: #fff;
     background-color: #003742;
     padding: 3px 10px;
-    border-radius: 10px;
+    border-radius: 50px;
     grid-row: 3;
     align-self: center;
     text-align: center;
