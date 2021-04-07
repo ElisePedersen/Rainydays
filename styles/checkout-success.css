@@ -1,0 +1,145 @@
+h1 {
+    text-align: center;
+}
+
+.overview {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 50px;
+}
+
+.product-information {
+    grid-row: 1;
+    grid-column: 1;
+    display: grid;
+    grid-template-columns: auto auto 1fr auto;
+}
+
+.track {
+    grid-row: 1;
+    grid-column: 2;
+}
+
+.delivery {
+    grid-row: 2;
+    grid-column: 1;
+}
+
+.questions {
+    grid-row: 2;
+    grid-column: 2;
+}
+
+.product-information,
+.delivery {
+    border: solid;
+    padding: 5px;
+    border-radius: 10px;
+    margin: 0px 40px 40px 40px;
+}
+
+.track,
+.questions {
+    margin: 0px 40px 40px 40px;
+    display: grid;
+    grid-auto-rows: min-content;
+}
+
+.cta {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #fff;
+    background-color: #003742;
+    padding: 5px 80px;
+    border-radius: 50px;
+    font-size: 1.5em;
+    margin-top: 30px;
+    justify-self: center;
+}
+
+h2,
+h3 {
+    color: #003742;
+}
+
+h3 {
+    margin-top: auto;
+}
+
+/* Product */
+
+.products {
+    grid-column: 1;
+    grid-row: 1;
+    display: grid;
+}
+
+.product-image {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.product-image img {
+    width: 100%;
+}
+
+.product-information h2 {
+    grid-column: 1/4;
+    grid-row: 1;
+    color: #003742;
+    text-transform: capitalize;
+}
+
+.price {
+    grid-column: 4;
+    grid-row: 1;
+    justify-self: right;
+}
+
+.quantity {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.selector {
+    grid-row: 2;
+    grid-column: 2;
+    align-self: center;
+}
+
+.color {
+    grid-row: 3;
+    grid-column: 1;
+}
+
+.size {
+    grid-row: 4;
+    grid-column: 1;
+}
+
+.delete {
+    grid-row: 4;
+    grid-column: 4;
+}
+
+.delete-icon {
+    grid-row: 4;
+    grid-column: 3;
+    align-self: center;
+    justify-self: right;
+}
+
+/* Track your order*/
+
+
+
+
+/* Delivery */
+
+.delivery p {
+    border: solid;
+    border-radius: 10px;
+    padding: 3px;
+}
+
+/* Contact*/

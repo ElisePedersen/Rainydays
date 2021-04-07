@@ -1,3 +1,352 @@
+h1 {
+    text-align: center;
+}
+
 .overview {
     display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 50px;
+}
+
+.login {
+    display: grid;
+    grid-row: 1;
+    grid-column: 1;
+    grid-template-columns: 1fr 1fr;
+}
+
+.product-information {
+    grid-row: 1;
+    grid-column: 2;
+    display: grid;
+    grid-template-columns: auto auto 1fr auto;
+}
+
+.guest {
+    grid-row: 2;
+    grid-column: 1;
+}
+
+.summary {
+    display: grid;
+    grid-row: 2;
+    grid-column: 2;
+    grid-template-columns: 1fr auto;
+}
+
+.subscribe {
+    grid-row: 3;
+    grid-column: 1;
+}
+
+.subscribe-button{
+    margin: 0px 40px 40px 40px;
+} 
+
+.payment {
+    grid-row: 3;
+    grid-column: 2;
+    display: grid;
+}
+
+.product-information,
+.summary,
+.guest,
+.payment,
+.login {
+    border: solid;
+    padding: 5px;
+    border-radius: 10px;
+    margin: 0px 40px 40px 40px;
+}
+
+
+/*Log in Section*/
+
+.log-in,
+.sign-up {
+    font-size: 1.5em;
+    color: #003742;
+    place-self: center;
+}
+
+.log-in {
+    grid-row: 1;
+    grid-column: 1;
+}
+
+.sign-up {
+    grid-row: 1;
+    grid-column: 2;
+    text-decoration: none;
+}
+
+.login form {
+    grid-row: 2;
+    grid-column: 1/3;
+    place-self: center;
+    color: #003742;
+}
+
+.login input {
+    border-radius: 50px;
+    padding: 5px 0px;
+}
+
+.cta {
+    grid-row: 3;
+    grid-column: 1/3;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #003742;
+    padding: 5px 80px;
+    border-radius: 50px;
+    font-size: 1.5em;
+    place-self: center;
+}
+
+.forgot-password {
+    grid-row: 4;
+    grid-column: 1;
+    color: #003742;
+    text-decoration: none;
+}
+
+p {
+    text-transform: capitalize;
+}
+
+/*Product information*/
+
+.products {
+    grid-column: 1;
+    grid-row: 1;
+    display: grid;
+}
+
+.product-image {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.product-image img {
+    width: 100%;
+}
+
+.product-information h2 {
+    grid-column: 1/4;
+    grid-row: 1;
+    color: #003742;
+    text-transform: capitalize;
+}
+
+.price {
+    grid-column: 4;
+    grid-row: 1;
+    justify-self: right;
+}
+
+.quantity {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.selector {
+    grid-row: 2;
+    grid-column: 2;
+    align-self: center;
+}
+
+.color {
+    grid-row: 3;
+    grid-column: 1;
+}
+
+.size {
+    grid-row: 4;
+    grid-column: 1;
+}
+
+.delete {
+    grid-row: 4;
+    grid-column: 4;
+}
+
+.delete-icon {
+    grid-row: 4;
+    grid-column: 3;
+    align-self: center;
+    justify-self: right;
+}
+
+/* Delivery */
+
+.guest h2 {
+    color: #003742;
+}
+
+.guest-heading {
+    text-align: center;
+}
+
+
+.guest input {
+    border-radius: 50px;
+    display: block;
+    padding: 5px 150px;
+    margin: 10px 0px;
+}
+
+/*Summary*/
+
+
+.summary h2 {
+    grid-row: 1;
+    grid-column: 1;
+    border-bottom: solid;
+    border-bottom-width: thin;
+    text-transform: capitalize;
+    color: #003742;
+}
+
+.sub {
+    grid-row: 2;
+    grid-column: 1;
+    padding: 10px 0px;
+}
+
+.amount {
+    grid-row: 2;
+    grid-column: 2;
+    justify-self: right;
+}
+
+.shipping {
+    grid-row: 3;
+    grid-column: 1;
+}
+
+.free {
+    grid-row: 3;
+    grid-column: 2;
+    justify-self: right;
+}
+
+.delivery {
+    grid-row: 4;
+    grid-column: 1;
+    font-size: 0.8em;
+    font-style: italic;
+    border-bottom: solid;
+    border-bottom-width: thin;
+}
+
+.total-shipping {
+    grid-row: 5;
+    grid-column: 1;
+    padding-top: 10px;
+}
+
+.total {
+    grid-row: 5;
+    grid-column: 2;
+    justify-self: right;
+}
+
+.tax {
+    grid-row: 6;
+    grid-column: 1;
+    font-size: 0.8em;
+    font-style: italic;
+    border-bottom: solid;
+    border-bottom-width: thin;
+}
+
+/* Payment details */
+
+.payment h2 {
+    color: #003742;
+    grid-row: 1;
+    grid-column: 1;
+}
+
+.type {
+    grid-row: 2;
+    grid-column: 1;
+    color: #777777;
+}
+
+.visa {
+    width: 50%;
+    grid-row: 2;
+    grid-column: 2;
+    align-self: center;
+}
+
+.mastercard {
+    width: 40%;
+    grid-row: 2;
+    grid-column: 3;
+    align-self: center;
+}
+
+.name {
+    grid-row: 4;
+    grid-column: 1;
+    color: #777777;
+}
+
+.actual-name {
+    grid-row: 5;
+    grid-column: 1;
+    margin-top: 0px;
+}
+
+.card {
+    grid-row: 6;
+    grid-column: 1;
+    color: #777777;
+}
+
+.card-number {
+    grid-row: 7;
+    grid-column: 1;
+    text-transform: lowercase;
+    margin-top: 0px;
+}
+
+.expiration {
+    grid-row: 8;
+    grid-column: 1;
+    color: #777777;
+}
+
+.cvv {
+    grid-row: 8;
+    grid-column: 3;
+}
+
+.mm {
+    grid-row: 9;
+    grid-column: 1;
+    margin-top: 0px;
+}
+
+.yyyy {
+    grid-row: 9;
+    grid-column: 2;
+    margin-top: 0px;
+}
+
+.xxx {
+    grid-row: 9;
+    grid-column: 3;
+    margin-top: 0px;
+}
+
+.payment .cta {
+    grid-row: 10;
+    grid-column: 1/4;
+    margin: 30px 0px;
 }

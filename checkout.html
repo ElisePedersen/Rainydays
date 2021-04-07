@@ -45,23 +45,23 @@
         <main>
             <h1>Checkout</h1>
             <section class="overview">
-                <section>
-                    <a href="checkout.html">Log In</a>
-                    <a href="checkout.html">Sign Up</a>
-                    <form method="POST" class="login">
+                <section class="login">
+                    <a href="checkout.html" class="log-in">Log In</a>
+                    <a href="checkout.html" class="sign-up">Sign Up</a>
+                    <form method="POST">
                         <label for="username">Username</label>
-                        <input type="text" name="username" id="username" class="username">
+                        <input type="text" name="username" id="username">
                         <label for="password">Password</label>
-                        <input type="text" name="password" id="password" class="password">
+                        <input type="text" name="password" id="password">
                     </form>
-                    <a href="log-in.html">log in</a>
-                    <a href="''">Forgot Password?</a>
+                    <a href="log-in.html" class="cta">log in</a>
+                    <a href="''" class="forgot-password">Forgot Password?</a>
                 </section>
-                <section>
+                <section class="product-information">
                     <div class="product-image">
                         <img src="images/Jacket.jpg" alt="blue rain jacket with hood">
                     </div>
-                    <div class="product-information">
+                    <div>
                         <h2>rainydays everyday jacket</h2>
                         <p class="price">$ 110</p>
                         <p class="quantity">quantity: 1</p>
@@ -69,8 +69,8 @@
                         <p class="size">size: s</p>
                     </div>
                 </section>
-                <h2>Continue as Guest</h2>
-                <section>
+                <section class="guest">
+                    <h2 class="guest-heading">Continue as Guest</h2>
                     <h2>Delivery</h2>
                     <form method="POST">
                         <label for="fullname">Full name</label>
@@ -89,7 +89,7 @@
                         <input type="email" name="email" id="email" class="email">
                     </form>
                 </section>
-                <section>
+                <section class="summary">
                     <h2>summary</h2>
                     <p class="sub">sub total</p>
                     <p class="amount">$ 110</p>
@@ -100,29 +100,28 @@
                     <p class="total">$ 110</p>
                     <p class="tax">tax and duty included</p>
                 </section>
-                <section>
+                <section class="subscribe">
                     <p class="newsletter">Sign Up For Our Newsletter!</p>
-                    <form method="POST" class="subscribe">
+                    <form method="POST" class="subscribe-button">
                         <label for="subscribe" class="subscribe-label">Subscribe</label>
                         <input type="text" name="subscribe" id="subscribe" class="subscribe-input">
                 </section>
-                <section>
+                <section class="payment">
                     <h2>Payment details</h2>
-                    <p>Card Type</p>
-                    <img src="images/visa.svg" alt="visa logo">
-                    <img src="images/mastercard.svg" alt="mastercard logo">
-                    <img src="images/klarna.svg" alt="klarna logo">
-                    <p>Name on the card</p>
-                    <p>Elise Pedersen</p>
-                    <p>Card number</p>
-                    <p>xxxx xxxx xxxx xxxx</p>
-                    <p>Expiration date</p>
-                    <p>CVV</p>
-                    <p>MM</p>
-                    <p>YYYY</p>
-                    <p>XXX</p>
+                    <p class="type">Card Type</p>
+                    <img src="images/visa.svg" alt="visa logo" class="visa">
+                    <img src="images/mastercard.svg" alt="mastercard logo" class="mastercard">
+                    <p class="name">Name on the card</p>
+                    <p class="actual-name">Elise Pedersen</p>
+                    <p class="card">Card number</p>
+                    <p class="card-number">xxxx xxxx xxxx xxxx</p>
+                    <p class="expiration">Expiration date</p>
+                    <p class="cvv">CVV</p>
+                    <p class="mm">MM</p>
+                    <p class="yyyy">YYYY</p>
+                    <p class="xxx">XXX</p>
+                    <a href="checkout-success.html" class="cta">Confirm Payment</a>
                 </section>
-                <a href="checkout-success.html">Confirm Payment</a>
             </section>
         </main>
         <footer>
