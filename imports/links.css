@@ -1,0 +1,17 @@
+.cta {
+    text-decoration: none;
+    color: #fff;
+    background-color: #003742;
+    border-radius: 50px;
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
+
+.cta-size {
+    text-decoration: none;
+    color: #003742;
+    border: solid;
+    border-radius: 50px;
+    font-size: 1em;
+    text-transform: uppercase;
+}

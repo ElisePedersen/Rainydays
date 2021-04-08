@@ -1,3 +1,5 @@
+
+
 .logo {
     margin-left: 40px;
 }
@@ -8,6 +10,23 @@
 
 .header-image {
     width: 100%;
+}
+
+.picture-text {
+    display: grid;
+}
+
+.picture-text h1 {
+    grid-row: 1;
+    grid-column: 1;
+    margin-top: 100px;
+    color: #003742;
+    text-align: center;
+}
+
+.picture-text img {
+    grid-row: 1;
+    grid-column: 1;
 }
 
 .scrollbar a {

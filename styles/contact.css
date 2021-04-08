@@ -53,13 +53,7 @@ main p {
 /* Chat */
 
 .cta {
-    text-decoration: none;
-    text-transform: uppercase;
-    color: #fff;
-    background-color: #003742;
     padding: 5px 80px;
-    border-radius: 50px;
-    font-size: 1.5em;
     place-self: center;
     margin: 20px 0px;
 }

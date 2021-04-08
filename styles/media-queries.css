@@ -156,6 +156,10 @@
         width: 20px;
     }
 
+    h1 {
+        display: none;
+    }
+    
     main {
         font-size: 0.7em;
     }

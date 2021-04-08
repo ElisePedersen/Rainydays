@@ -71,14 +71,9 @@ select {
 }
 
 .cta {
-    text-decoration: none;
-    color: #fff;
-    background-color: #003742;
     padding: 3px 10px;
-    border-radius: 50px;
     grid-row: 3;
     align-self: center;
     text-align: center;
     margin-right: 15px;
-    font-size: 1.5em;
 }

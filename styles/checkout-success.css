@@ -46,13 +46,7 @@ h1 {
 }
 
 .cta {
-    text-decoration: none;
-    text-transform: capitalize;
-    color: #fff;
-    background-color: #003742;
     padding: 5px 80px;
-    border-radius: 50px;
-    font-size: 1.5em;
     margin-top: 30px;
     justify-self: center;
 }

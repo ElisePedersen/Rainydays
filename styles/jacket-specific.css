@@ -86,34 +86,21 @@ h1 {
 }
 
 .cta {
-    text-decoration: none;
-    color: #fff;
-    background-color: #003742;
     padding: 3px 10px;
-    border-radius: 50px;
     align-self: center;
     text-align: center;
     margin-right: 40px;
-    font-size: 1.5em;
-    text-transform: uppercase;
 }
 
 .cta-size {
-    text-decoration: none;
-    color: #003742;
-    border: solid;
     padding: 3px 10px;
-    border-radius: 50px;
     align-self: center;
     text-align: center;
-    font-size: 1em;
-    text-transform: uppercase;
     margin: 5px 40px 5px 0px;
 }
 
 .blue {
     background-color: rgb(81, 164, 219);
-
 }
 
 .orange {

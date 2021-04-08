@@ -58,6 +58,7 @@ footer a {
 
 header p {
     margin-left: 10px;
+    text-transform: capitalize;
 }
 
 .active {
@@ -146,7 +147,7 @@ nav a {
 }
 
 .subscribe-button {
-    font-size: 2em;
+    font-size: 1.5em;
     color: #ffffff;
     display: flex;
     justify-content: center;
@@ -163,5 +164,5 @@ nav a {
     border-radius: 0px 50px 50px 0px;
     width: 400px;
     border-color: #003742;
-    font-size: 0.7em;
+    font-size: 0.8em;
 }
