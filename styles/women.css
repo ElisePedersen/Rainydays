@@ -1,10 +1,4 @@
-.logo {
-    margin: 15px auto 15px 20px;
-    min-width: 100%;
-}
-
 .navigation nav {
-    margin-left: 0px;
     grid-row: 1;
 }
 
@@ -16,11 +10,15 @@
 
 .navigation-specific a {
     color: #00778F;
-    font-size: 0.5em;
+    font-size: 0.6em;
 }
 
 .navigation-specific ul {
     margin: 0px;
+}
+
+.navigation-cta {
+    font-size: 0.8em;
 }
 
 .filter,
@@ -34,6 +32,8 @@ select {
     padding: 5px;
     background-color: #003742;
     color: #fff; 
+    font-size: 1em;
+    
 }
 
 .both-filters {
@@ -43,8 +43,8 @@ select {
 .product-list {
     display: grid;
     grid-template-columns: repeat(4, minmax(0, 1fr));
-    gap: 20px;
-    margin: 30px 40px;
+    gap: 40px;
+    margin: 40px 40px;
     text-align: center;
 }
 
@@ -58,6 +58,7 @@ select {
     margin: 10px;
     grid-row: 1;
     grid-column: 1/3;
+    justify-self: center;
 }
 
 .product h1 {
@@ -68,6 +69,7 @@ select {
 
 .product p {
     grid-row: 3;
+    margin-top: 6px;
 }
 
 .cta {
@@ -76,4 +78,5 @@ select {
     align-self: center;
     text-align: center;
     margin-right: 15px;
+    margin-bottom: 10px
 }

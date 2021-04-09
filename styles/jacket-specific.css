@@ -1,7 +1,3 @@
-.logo {
-    margin-left: 25px;
-}
-
 .product {
     display: grid;
     grid-template-columns: 1fr 1fr;
