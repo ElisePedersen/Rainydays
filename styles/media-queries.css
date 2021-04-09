@@ -9,7 +9,7 @@
     .logo {
         grid-column: 1/5;
         grid-row: 1;
-        margin: 15px 0px;
+        margin: 15px 0px 0px 0px;
     }
 
     .navigation a{
@@ -212,11 +212,21 @@
 
     .both-filters {
         font-size: 0.8em;
+        margin-top: 20px;
     }
 
-    .product-list {
-        grid-template-columns: repeat(1, minmax(0, 1fr));
+    .product-list .cta {
+        font-size: 1em;
     }
+
+    .product p {
+        font-size: 0.9em;
+    }
+
+    /*.product-list {
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+    } 
+    */
 
     /* footer */
 
