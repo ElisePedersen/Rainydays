@@ -215,6 +215,9 @@
         margin-top: 20px;
     }
 
+    .product-list {
+        gap: 20px;
+    }
     .product-list .cta {
         font-size: 1em;
     }
