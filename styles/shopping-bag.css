@@ -6,13 +6,13 @@ p,
 h1,
 h2,
 h3
-.overview a {
+.overview-shoppingbag a {
     text-transform: capitalize;
     align-self: center;
     margin: 5px;
 }
 
-.overview {
+.overview-shoppingbag {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr ;

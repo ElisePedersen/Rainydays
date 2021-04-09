@@ -1,4 +1,4 @@
-.product {
+.product-overview {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
@@ -16,7 +16,8 @@
     grid-row: 1;
     grid-column: 2;
     display: grid;
-    grid-template-rows: min-content min-content auto min-content min-content;
+    grid-template-rows: min-content min-content min-content min-content min-content;
+    align-content: center;
 }
 
 h1 {
@@ -77,15 +78,20 @@ h1 {
     margin-right: 40px;
 }
 
+.description-text {
+    display: none;
+    margin: 0px 40px;
+}
 .title {
     grid-column: -1/1;
 }
 
 .cta {
-    padding: 3px 10px;
+    padding: 3px 20px;
     align-self: center;
     text-align: center;
-    margin-right: 40px;
+    justify-self: center;
+    margin: 20px 40px 20px 0px ;
 }
 
 .cta-size {
