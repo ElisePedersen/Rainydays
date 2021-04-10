@@ -2,9 +2,9 @@ h1 {
     text-align: center;
 }
 
-.overview {
+.overview-success {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1.4fr 1fr;
     margin-top: 50px;
 }
 
@@ -35,12 +35,12 @@ h1 {
     border: solid;
     padding: 5px;
     border-radius: 10px;
-    margin: 0px 40px 40px 40px;
+    margin: 0px 20px 40px 40px;
 }
 
 .track,
 .questions {
-    margin: 0px 40px 40px 40px;
+    margin: 0px 10px;
     display: grid;
     grid-auto-rows: min-content;
 }
@@ -62,6 +62,10 @@ h3 {
 
 /* Product */
 
+.product-text p {
+    text-transform: capitalize;
+}
+
 .products {
     grid-column: 1;
     grid-row: 1;
@@ -82,6 +86,12 @@ h3 {
     grid-row: 1;
     color: #003742;
     text-transform: capitalize;
+}
+
+.product-text,
+.track,
+.questions {
+    align-self: center;
 }
 
 .price {
