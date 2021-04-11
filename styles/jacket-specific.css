@@ -132,3 +132,8 @@ h1 {
 .scrollbar-product {
     width: 100%;
 }
+
+.subscribe-button {
+    margin-left: 40px;
+    margin-right: 40px;
+}
