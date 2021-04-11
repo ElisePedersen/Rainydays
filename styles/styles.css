@@ -9,6 +9,12 @@ body {
     margin: 0%;
 }
 
+main {
+    width: 100%;
+    max-width: 1500px;
+    margin: auto;
+}
+
 h1,
 .newsletter {
     color: #00778F;
