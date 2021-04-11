@@ -5,7 +5,7 @@ h1 {
 .overview-success {
     display: grid;
     grid-template-columns: 1.4fr 1fr;
-    margin-top: 50px;
+    margin: 50px 40px;
 }
 
 .product-information {
@@ -35,7 +35,7 @@ h1 {
     border: solid;
     padding: 5px;
     border-radius: 10px;
-    margin: 0px 20px 40px 40px;
+    margin-bottom: 40px;
 }
 
 .track,
@@ -78,7 +78,7 @@ h3 {
 }
 
 .product-image img {
-    width: 100%;
+    width: 300px;
 }
 
 .product-information h2 {
