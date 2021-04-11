@@ -88,6 +88,7 @@
 }
 
 @media (max-width: 1200px) {
+    /* Checkout */
     .overview-checkout {
         grid-template-columns: 1fr 1fr;
     }
@@ -132,6 +133,16 @@
     .login a,
     .login form {
         margin: 10px;
+    }
+
+    /* Contact */
+    .chat .cta {
+        padding: 5px 40px;
+    }
+
+    .phone img,
+    .mail img {
+        width: 100px;
     }
 }
 
@@ -284,6 +295,61 @@
         grid-template-rows: auto;
     }
 
+    /* About */
+
+    .second {
+        grid-row: 2;
+        grid-column: 1;
+    }
+
+    .text {
+        gap: 20px;
+    }
+
+    /* Contact */
+
+    .overview-contact {
+        grid-template-columns: unset;
+    }
+    
+    .chat {
+        grid-template-columns: 1fr 2fr;
+    }
+    .chat .cta {
+        grid-column: 1;
+        grid-row: 2/4;
+    }
+
+    .chat h2,
+    .chat p {
+        grid-column: 2;
+        text-align: left;
+    }
+
+
+    .phone {
+        grid-row: 2;
+        grid-column: 1;
+        grid-template-columns: 1fr 2fr;
+    }
+
+    .phone .number,
+    .phone h2 {
+        grid-column: 2;
+        text-align: left;
+    }
+
+    .mail {
+        grid-row: 3;
+        grid-column: 1;
+        grid-template-columns: 1fr 2fr;
+    }
+
+    .mail h2,
+    .mail .email {
+        grid-column: 2;
+        text-align: left;
+    }
 
     /* footer */
 
@@ -298,6 +364,11 @@
 
 @media (max-width: 800px) {
     
+
+    .subscribe-input {
+        width: 200px;
+    }
+
     /* Women */
     .product-list {
         grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -391,10 +462,6 @@
         margin: 10px;
     }
 
-    .overview-checkout .subscribe-input {
-        width: 200px;
-      
-    }
 
     /* Checkout */
 
@@ -447,6 +514,21 @@
     .overview-success .cta {
         padding: 5px 40px;
     }
+
+    /* Contact */
+
+    .customer-service,
+    .overview-contact h2,
+    .phone .number,
+    .mail .email,
+    .chat .cta {
+        font-size: 1.2em;
+    }
+
+    .chat .cta {
+        padding: 5px 10px;
+    }
+
 }
 
 @media (max-width: 465px) {
@@ -654,6 +736,34 @@
     .overview-success .price,
     .overview-success .size {
         margin-left: auto;
+    }
+
+    /* About */
+
+    .text {
+        margin: 20px 5px;
+        gap: 5px;
+    }
+
+    
+
+    /* Contact */
+
+    .overview-contact {
+        margin: 20px 0px;
+    }
+
+    .chat {
+        grid-template-columns: unset;
+    }
+    .chat .cta {
+        grid-row: 5;
+    }
+
+    .chat h2,
+    .chat p {
+        grid-column: 1;
+        text-align: center;
     }
 
     /* footer */

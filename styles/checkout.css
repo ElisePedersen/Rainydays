@@ -41,8 +41,6 @@ h1 {
     grid-column: 1/4;
 }
 
-
-
 .payment {
     grid-row: 3;
     grid-column: 1/4;
@@ -58,7 +56,6 @@ h1 {
     border: solid;
     padding: 5px;
     border-radius: 10px;
-   
 }
 
 
@@ -204,9 +201,7 @@ p {
     width: 250px;
 }
 
-
 /*Summary*/
-
 
 .summary h2 {
     grid-row: 1;

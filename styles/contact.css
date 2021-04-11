@@ -1,6 +1,12 @@
+main {
+    width: 100%;
+    max-width: 1500px;
+    margin: auto;
+}
+
 h1 {
     text-align: center;
-    margin-bottom: 0px;
+    margin-bottom: 30px;
 }
 
 h2 {
@@ -12,10 +18,11 @@ main p {
     font-size: 0.8em;
 }
 
-.overview {
+.overview-contact {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    margin-top: 50px;
+    gap: 40px;
+    margin: 40px;
 }
 
 .chat {
@@ -42,7 +49,6 @@ main p {
     border: solid;
     padding: 5px;
     border-radius: 10px;
-    margin: 0px 40px 40px 40px;
     display: grid;
 }
 
@@ -64,12 +70,14 @@ main p {
 .phone img {
     grid-row: 2/4;
     grid-column: 1;
-    width: 100%;
+    width: 70%;
+    justify-self: center;
 }
 
 .line-one {
     grid-row: 2;
     grid-column: 2;
+    margin-top: auto;
 }
 
 .line-two {
@@ -94,7 +102,8 @@ main p {
 .mail img {
     grid-row: 2;
     grid-column: 1;
-    width: 100%;
+    width: 70%;
+    justify-self: center;
 }
 
 .text {
