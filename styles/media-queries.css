@@ -114,7 +114,6 @@
         grid-column: 2;
     }
 
-
     .overview-checkout .summary {
         grid-row: 3;
         grid-column: 2;
@@ -131,6 +130,7 @@
     }
 
     /* Contact */
+
     .chat .cta {
         padding: 5px 40px;
     }
@@ -292,6 +292,7 @@
     .chat {
         grid-template-columns: 1fr 2fr;
     }
+
     .chat .cta {
         grid-column: 1;
         grid-row: 2/4;
@@ -302,7 +303,6 @@
         grid-column: 2;
         text-align: left;
     }
-
 
     .phone {
         grid-row: 2;
@@ -340,8 +340,6 @@
 }
 
 @media (max-width: 800px) {
-    
-
     .subscribe-input {
         width: 100%;
     }
@@ -394,6 +392,7 @@
     }
 
     /* Checkout */
+
     .overview-checkout {
         grid-template-columns: unset;
     }
@@ -479,7 +478,6 @@
     .chat .cta {
         padding: 5px 10px;
     }
-
 }
 
 @media (max-width: 465px) {
@@ -673,7 +671,6 @@
     
     /* Checkout Success */
 
-
     .overview-success .product-image img {
         width: 200px;
     }
@@ -708,13 +705,13 @@
     .newsletter {
         font-size: 1em;
     }
-    
 
     /* Contact */
 
     .chat {
         grid-template-columns: unset;
     }
+
     .chat .cta {
         grid-row: 5;
     }
