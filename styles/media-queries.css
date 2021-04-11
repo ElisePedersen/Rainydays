@@ -441,15 +441,12 @@
 
     .guest {
         grid-row: 2;
+        grid-column: 1;
     }
 
     .overview-checkout .summary {
         grid-row: 4;
         grid-column: 1;
-    }
-
-    .overview-checkout .subscribe {
-        grid-row: 6;
     }
 
     .payment {
@@ -460,13 +457,6 @@
     .login a,
     .login form {
         margin: 10px;
-    }
-
-
-    /* Checkout */
-
-    .guest {
-        grid-column: 1;
     }
 
     .overview-checkout .subscribe {
@@ -669,7 +659,7 @@
     /* Checkout */
 
     .overview-checkout {
-        margin: 30px 5px;
+        margin: 0px 40px;
     }
 
     .overview-checkout .newsletter,
@@ -690,8 +680,19 @@
         margin: 0px;
     }
 
-    .overview-checkout .payment .cta {
-        padding: 5px 40px;
+    .overview-checkout .subscribe-input {
+        width: 150px;
+    }
+
+    .overview-checkout .cta {
+        padding: 5px 20px;
+    }
+
+    .overview-checkout .product-image img {
+        width: 200px;
+    }
+    .overview-checkout .product-information h2{
+        grid-column: 1;
     }
 
     .overview-checkout .price {
@@ -717,6 +718,10 @@
         grid-column: 1;
     }
 
+    .overview-checkout .guest input {
+        max-width: 200px;
+    }
+    
     /* Checkout Success */
 
     .overview-success {
@@ -744,8 +749,6 @@
         margin: 20px 5px;
         gap: 5px;
     }
-
-    
 
     /* Contact */
 
